@@ -21,7 +21,7 @@ I focus on the intersection of **AI and security** - systems that detect threats
 | Project | What it does | Stack |
 |---|---|---|
 | [Vigil AI](https://github.com/NSK-394/Vigil-AI) | Autonomous API abuse detection - 4 AI agents (Monitor, Detection, Decision, Response) with dual-engine ML + rule fusion and explainable reasoning traces | Python, FastAPI, scikit-learn, Streamlit |
-| [Cross-AI Memory Vault](#) | Persistent shared memory layer across GPT-4, Claude, and Gemini - context follows you, not the model | Python, ChromaDB, OpenAI/Anthropic/Gemini SDK |
+| [Cross-AI Memory Vault](https://github.com/NSK-394/cross-ai-memory-vault) | Persistent shared memory layer across GPT-4, Claude, and Gemini - context follows you, not the model | Python, ChromaDB, OpenAI/Anthropic/Gemini SDK |
 | [AI Receptionist](#) | Automated intake and workflow routing - handles inbound inquiries and triggers downstream actions without human intervention | Python, Twilio/VAPI, n8n |
 | [CTF Write-ups](https://github.com/NSK-394/my-CTF-write-ups) | Capture-the-flag solutions across web, binary, and crypto categories | Security, Reverse Engineering |
 
