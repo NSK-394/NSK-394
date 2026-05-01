@@ -1,8 +1,8 @@
-﻿# Hey, I'm Nikhil
+# Hey, I'm Nikhil
 
 First-year CS student - Building AI security systems and autonomous agents
 
-nikhilsai151416@gmail.com | github.com/NSK-394
+nikhilsai151416@gmail.com | [github.com/NSK-394](https://github.com/NSK-394)
 
 ---
 
@@ -20,22 +20,23 @@ I focus on the intersection of **AI and security** - systems that detect threats
 
 | Project | What it does | Stack |
 |---|---|---|
-| [Vigil AI](https://github.com/NSK-394/Vigil-AI) | Autonomous API abuse detection - 4 AI agents (Monitor, Detection, Decision, Response) with dual-engine ML + rule fusion and explainable reasoning traces | Python, FastAPI, scikit-learn, Streamlit |
-| [Cross-AI Memory Vault](https://github.com/NSK-394/cross-ai-memory-vault) | Persistent shared memory layer across GPT-4, Claude, and Gemini - context follows you, not the model | Python, ChromaDB, OpenAI/Anthropic/Gemini SDK |
-| [AI Receptionist](#) | Automated intake and workflow routing - handles inbound inquiries and triggers downstream actions without human intervention | Python, Twilio/VAPI, n8n |
-| [CTF Write-ups](https://github.com/NSK-394/my-CTF-write-ups) | Capture-the-flag solutions across web, binary, and crypto categories | Security, Reverse Engineering |
+| [Vigil AI](https://github.com/NSK-394/Vigil-AI) | Autonomous API abuse detection - 4 AI agents with dual-engine ML + rule fusion and explainable reasoning traces | Python, FastAPI, scikit-learn, Streamlit |
+| [Cross-AI Memory Vault](https://github.com/NSK-394/cross-ai-memory-vault) | Persistent shared memory layer across GPT-4, Claude, and JARVIS - context follows you, not the model | Python, FastAPI, ChromaDB |
+| [JARVIS AI](https://github.com/NSK-394/jarvis-ai) | Autonomous AI daemon with desktop awareness, multi-agent hierarchy, voice interface, and visual workflow automation | TypeScript, Bun, React |
+| [AI CCTV](https://github.com/NSK-394/Ai-cctv-checker) | Real-time CCTV analysis - YOLOv8 object detection + GPT-4o-mini scene descriptions with event tracking | Python, YOLOv8, OpenCV |
+| [CTF Write-ups](https://github.com/NSK-394/my-CTF-write-ups) | Capture-the-flag solutions across web exploitation, binary analysis, and cryptography | Security |
 
 ---
 
 ## Tech Stack
 
-- **Languages:** Python, JavaScript (learning)
+- **Languages:** Python, JavaScript / TypeScript
 - **AI / LLM:** OpenAI API, Anthropic Claude API, LangChain, Hugging Face
-- **ML:** scikit-learn, IsolationForest, anomaly detection, Pandas, NumPy
+- **ML:** scikit-learn, YOLOv8, IsolationForest, anomaly detection
 - **Backend:** FastAPI, Flask, REST API design
-- **Storage:** SQLite, Redis, ChromaDB / FAISS (vector databases)
-- **Automation:** n8n, Twilio, VAPI
-- **Tools:** Git, Docker (learning), Postman, Linux
+- **Storage:** SQLite, Redis, ChromaDB / FAISS
+- **Automation:** n8n, Twilio, VAPI, OpenCV
+- **Tools:** Git, Docker (learning), Linux
 
 ---
 
