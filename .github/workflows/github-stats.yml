@@ -2,9 +2,8 @@ name: Generate GitHub Stats Images
 
 on:
   schedule:
-    # Runs every 12 hours
     - cron: "0 */12 * * *"
-  workflow_dispatch:  # allows manual trigger from Actions tab
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -14,15 +13,32 @@ jobs:
     runs-on: ubuntu-latest
     name: Generate GitHub Stats Images
     steps:
-      - name: Generate stats images
-        uses: jstrieb/github-stats@master
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          username: NSK-394
-          access_token: ${{ secrets.ACCESS_TOKEN }}
-          exclude_repos: ""
-          exclude_langs: ""
-          exclude_langs_categories: "markup,data,other"
-          exclude_forked_repos: false
+          python-version: "3.9"
+
+      - name: Clone stats generator source
+        run: git clone --depth 1 https://github.com/jstrieb/github-stats.git generator
+
+      - name: Install dependencies
+        run: pip install -r generator/requirements.txt
+
+      - name: Generate stats images
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_ACTOR: NSK-394
+          EXCLUDED: ""
+          EXCLUDED_LANGS: ""
+          EXCLUDE_FORKED_REPOS: "false"
+        run: |
+          cd generator
+          python3 main.py
+          mkdir -p ../generated
+          cp -r generated/* ../generated/
 
       - name: Commit generated images
         uses: stefanzweifel/git-auto-commit-action@v5
