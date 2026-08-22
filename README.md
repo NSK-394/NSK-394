@@ -73,8 +73,8 @@ I'm **Nikhil**, a 2nd-year B.Tech Computer Science (Cybersecurity) student at **
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NSK-394&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Nikhil's GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NSK-394&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
+  <img src="https://github-readme-stats-alpha-tawny-57.vercel.app/api?username=NSK-394&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Nikhil's GitHub Stats" height="200"/>
+  <img src="https://github-readme-stats-alpha-tawny-57.vercel.app/api/top-langs/?username=NSK-394&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="200"/>
 </p>
 
 <p align="center">
@@ -84,6 +84,8 @@ I'm **Nikhil**, a 2nd-year B.Tech Computer Science (Cybersecurity) student at **
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=NSK-394&theme=tokyo-night&hide_border=true" alt="Contribution Activity Graph" />
 </p>
+
+> Stats & Top Languages cards are served from a self-hosted [github-readme-stats](https://github.com/NSK-394/github-readme-stats) instance on my own Vercel account — dedicated 5k req/hr quota, no shared rate limits. Streak & activity graph use external widgets that have historically been stable.
 
 ---
 
