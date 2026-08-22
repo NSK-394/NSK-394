@@ -1,0 +1,31 @@
+name: Generate GitHub Stats Images
+
+on:
+  schedule:
+    # Runs every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:  # allows manual trigger from Actions tab
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate GitHub Stats Images
+    steps:
+      - name: Generate stats images
+        uses: jstrieb/github-stats@master
+        with:
+          username: NSK-394
+          access_token: ${{ secrets.ACCESS_TOKEN }}
+          exclude_repos: ""
+          exclude_langs: ""
+          exclude_langs_categories: "markup,data,other"
+          exclude_forked_repos: false
+
+      - name: Commit generated images
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update generated GitHub stats images"
+          file_pattern: "generated/*.svg"
