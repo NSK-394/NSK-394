@@ -1,56 +1,110 @@
-# Hey, I'm Nikhil
+<h1 align="center">Hi there, I'm K Nikhil Sai 👋</h1>
+<h3 align="center">Cybersecurity Developer • AI/Automation Engineer • CTF Builder</h3>
 
-2nd-year CS (Cybersecurity) student — Building AI security systems, autonomous agents, and contributing to open-source security tooling.
-
-nikhilsai151416@gmail.com | [github.com/NSK-394](https://github.com/NSK-394)
-
----
-
-## What I Build
-
-I focus on the intersection of **AI and security** — systems that detect threats, automate decisions, and orchestrate multiple AI models.
-
-- Anomaly detection and API security systems
-- Agentic AI architectures with persistent memory
-- Automation pipelines connecting multiple AI services
-- Open-source security tooling (OWASP contributor)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Breaking+things+to+build+them+stronger;OWASP+Nettacker+Contributor;Building+AI+%2B+Security+Systems;CTF+Player+%40+CyberSyndicate" alt="Typing SVG" />
+</p>
 
 ---
 
-## Open Source
+### 🚀 About Me
 
-Active contributor to **[OWASP Nettacker](https://github.com/OWASP/Nettacker)** — two merged PRs to master, currently developing a detection module for **CVE-2026-33017** (Langflow RCE, CVSS 9.8, CISA KEV).
+I'm **Nikhil**, a 2nd-year B.Tech Computer Science (Cybersecurity) student at **SRM Institute of Science and Technology**. I build things at the intersection of **offensive/defensive security and AI automation** — from vulnerability detection modules to production-style SaaS backends.
 
----
-
-## Projects
-
-| Project | What it does | Stack |
-|---|---|---|
-| [Vigil AI](https://github.com/NSK-394/Vigil-AI) | Autonomous API abuse detection — 4 AI agents with dual-engine ML + rule fusion | Python, FastAPI, scikit-learn |
-| [SchoolBridge](https://github.com/NSK-394) | Security-first MCP server for school ERP data access | Python, MCP |
-| [Cross-AI Memory Vault](https://github.com/NSK-394/cross-ai-memory-vault) | Persistent shared memory layer across GPT-4, Claude, and JARVIS | Python, FastAPI |
-| [JARVIS AI](https://github.com/NSK-394/jarvis-ai) | Autonomous AI daemon with desktop awareness and multi-agent hierarchy | TypeScript, Bun |
-| [AI CCTV](https://github.com/NSK-394/Ai-cctv-checker) | Real-time CCTV analysis — YOLOv8 + GPT-4o-mini scene descriptions | Python, YOLOv8, OpenCV |
-| [CTF Write-ups](https://github.com/NSK-394/my-CTF-write-ups) | CTF solutions across web exploitation, binary analysis, pwn, and cryptography | Security |
+- 🔐 **Cybersecurity Developer Intern** @ BrainMint — pentesting a production School ERP (IDOR, RBAC, ReDoS, RLS)
+- 🤖 **AI Engineer Intern / Squad Lead** @ OUANTUM — drone surveillance MVP, BIM backend QA (82 tests, 92% coverage)
+- 🚀 Founding team member @ **Healix Technologies** (HLX Space)
+- 🛠️ Active contributor to **OWASP Nettacker** — merged PRs, CVE detection modules (incl. CVE-2026-33017, CVSS 9.8, CISA KEV)
+- 🏁 CTF player with **CyberSyndicate**, co-organizing **BC CTF** (WiCyS SRM × HTB SRM)
+- 🎯 Currently prepping for **ISC2 CC**, chasing **Mitacs Globalink** & **DAAD WISE** research internships
+- 💬 Ask me about: web app security, AI automation pipelines, n8n workflows, or CTF pwn/web challenges
+- 🌐 Building a self-hosted JARVIS memory system on my own VPS infra
 
 ---
 
-## Tech Stack
+### 🛠️ Tech Stack
 
-- **Languages:** Python, TypeScript, JavaScript
-- **AI / LLM:** OpenAI API, Anthropic Claude API, LangChain
-- **ML:** scikit-learn, YOLOv8, Isolation Forest, anomaly detection
-- **Backend:** FastAPI, Flask, REST API design, Node/Express
-- **Security:** AppSec code review, vulnerability research, CTF (web exploitation, pwn, crypto)
-- **Tools:** Git, Docker, Linux, n8n
+**🔐 Security & Offensive Tooling**
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square&logo=nmap&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+
+**🤖 AI & Automation**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
+
+**⚙️ Backend & API**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+
+**🖥️ Frontend**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+**🗄️ Databases**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**☁️ Infra & Deployment**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?style=flat-square&logo=hetzner&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
-## Currently
+### 📈 GitHub Stats
 
-- Interning across cybersecurity AppSec and AI engineering roles
-- Competing in CTFs and doing responsible disclosure work
-- Open to: AI / Backend / Security internship opportunities (Summer/Fall 2026)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=NSK-394&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Nikhil's GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NSK-394&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
+</p>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NSK-394&show_icons=true&theme=dark&hide_border=true&count_private=true)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=NSK-394&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NSK-394&theme=tokyo-night&hide_border=true" alt="Contribution Activity Graph" />
+</p>
+
+---
+
+### 🏆 Highlights
+
+- 🩹 **CVE-2026-33017** (Langflow RCE, CVSS 9.8, CISA KEV) — full detect → patch → proof-harness pipeline (Kavach Loop, TCQ 3.0)
+- ✅ 2 merged PRs + multiple independently-discovered engine bugs in **OWASP Nettacker**
+- 🥈 **GCI World 2026** (University of Tokyo) — Top 20%, LightGBM churn model
+- 🏗️ Built & deployed a multi-tenant **Voice AI Lead-Qualification Agent** (FastAPI, Vapi, 4 Indian languages via Sarvam TTS)
+- 🎖️ **OWASP CRT** certified (CRT-OWASP-228297649)
+
+---
+
+### 📫 Connect
+
+<p align="center">
+  <a href="https://nikhilsai.uk"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/NSK-394"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://hackerone.com/nsk-394"><img src="https://img.shields.io/badge/HackerOne-494649?style=flat-square&logo=hackerone&logoColor=white" /></a>
+</p>
+
+---
+
+<p align="center"><i>Building real-world security + AI systems, one commit at a time.</i></p>
