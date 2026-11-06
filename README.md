@@ -14,7 +14,7 @@ I'm **Nikhil**, a 2nd-year B.Tech Computer Science (Cybersecurity) student at **
 - 🔐 **Cybersecurity Developer Intern** @ BrainMint — pentesting a production School ERP (IDOR, RBAC, ReDoS, RLS)
 - 🤖 **AI Engineer Intern / Squad Lead** @ OUANTUM — drone surveillance MVP, BIM backend QA (82 tests, 92% coverage)
 - 🚀 Founding team member @ **Healix Technologies** (HLX Space)
-- 🛠️ Active contributor to **OWASP Nettacker** — merged PRs, CVE detection modules (incl. CVE-2026-33017, CVSS 9.8, CISA KEV)
+- 🛠️ Contributor to **[OWASP Nettacker](https://github.com/OWASP/Nettacker/pulls?q=is%3Apr+author%3ANSK-394)** — 4 merged PRs incl. a CVE-2026-20253 (Splunk) detection module, plus bug fixes with regression tests
 - 🏁 CTF player with **CyberSyndicate**, co-organizing **BC CTF** (WiCyS SRM × HTB SRM)
 - 🎯 Currently prepping for **ISC2 CC**, chasing **Mitacs Globalink** & **DAAD WISE** research internships
 - 💬 Ask me about: web app security, AI automation pipelines, n8n workflows, or CTF pwn/web challenges
@@ -91,10 +91,10 @@ I'm **Nikhil**, a 2nd-year B.Tech Computer Science (Cybersecurity) student at **
 
 ### 🏆 Highlights
 
-- 🩹 **CVE-2026-33017** (Langflow RCE, CVSS 9.8, CISA KEV) — full detect → patch → proof-harness pipeline (Kavach Loop, TCQ 3.0)
-- ✅ 2 merged PRs + multiple independently-discovered engine bugs in **OWASP Nettacker**
+- 🩹 **CVE-2026-33017** (Langflow unauth RCE, CVSS 9.3) — full detect → exploit → patch → proof-harness pipeline: **[kavach-loop](https://github.com/NSK-394/kavach-loop)**
+- ✅ 4 merged PRs in **OWASP Nettacker** (CVE detection module + bug fixes) — [write-up of PR #1612](https://github.com/NSK-394/owasp-nettacker-contribution)
 - 🥈 **GCI World 2026** (University of Tokyo) — Top 20%, LightGBM churn model
-- 🏗️ Built & deployed a multi-tenant **Voice AI Lead-Qualification Agent** (FastAPI, Vapi, 4 Indian languages via Sarvam TTS)
+- 🏗️ Built a multi-tenant **[Voice AI Lead-Qualification Agent](https://github.com/NSK-394/voice-agent)** (FastAPI, Vapi, OpenAI, Sarvam TTS)
 - 🎖️ **OWASP CRT** certified (CRT-OWASP-228297649)
 
 ---
